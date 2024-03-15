@@ -13,5 +13,5 @@ Copy-Item -Path $FILE -Destination "$FILE.bak"
 (Get-Content $FILE) -replace '<base href="/" />', '<base href="https://maac4.github.io/blazor/" />' | Set-Content $FILE
 
 # Faz commit e push das alterações
-git commit -am "Deploy from CLI"
+git commit -am "Deploy from CLI"
 git push
