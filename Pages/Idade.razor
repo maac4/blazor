@@ -1,0 +1,51 @@
+@page "/idade"
+
+<h1 style="color: rgb(38, 38, 148);"><i>Algoritimo que calcula a idade pela data de nascimento:</i></h1>
+<br>
+<p>Ano de nascimento: <input type="text" @bind="ano_nas"></p>
+<p>Mês de nascimento: <input type="text" @bind="mes_nas"></p>
+<p>Dia de nascimento: <input type="text" @bind="dia_nas"></p>
+<br>
+<p><button class="btn btn-dark" @onclick="idade_">Cacular idade</button></p>
+
+<p><b>@idade</b></p>
+
+@code {
+    public int ano_nas = 0;
+    public int mes_nas = 0;
+    public int dia_nas = 0;
+
+    public int mes_atual = 2;
+    public int dia_atual = 29;
+    public int ano_atual = 2024;
+    public int idade = 0;
+
+    // Variaveis para a conta
+    public int volta = 0;
+    // Ate aqui
+
+    public void idade_()
+    {
+        idade = ano_atual - ano_nas;
+
+        if (mes_atual < mes_nas)
+        {
+            idade -= 1;
+        }
+        else if (mes_atual == mes_nas)
+        {
+            if (dia_atual < dia_nas)
+            {
+                idade -= 1;
+            }
+            else
+            {
+                volta += 1;
+            }
+        }
+        else
+        {
+            volta += 1;
+        }
+    }
+}

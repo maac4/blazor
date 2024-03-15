@@ -1,0 +1,19 @@
+﻿@page "/soma"
+
+<h1 style="color: rgb(38, 38, 148);"><i>Algoritimo de soma de dois números:</i></h1>
+<br>
+<p><input type="text" placeholder="Número um:" @bind="num1"></p>
+<p><input type="text" placeholder="Número dois:" @bind="num2"></p>
+<br>
+<p><button @onclick="some" class="btn btn-dark">calcule</button></p>
+<p><b>@soma</b></p>
+
+@code {
+    public string num1 = "";
+    public string num2 = "";
+    public int soma = 0;
+    public void some()
+    {
+        soma = int.Parse(num1) + int.Parse(num2);
+    }
+}
