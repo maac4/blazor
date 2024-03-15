@@ -1030,3 +1030,5 @@ C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\51ys
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\slmlkzssub.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\gngxvh6plu.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\59ip1fnhyx.gz
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\docs\sample-data\weather.json
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\docs\_framework\blazor.boot.json

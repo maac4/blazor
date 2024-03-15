@@ -1,1 +1,3 @@
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\publish\docs\sample-data\weather.json
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\publish\docs\_framework\blazor.boot.json
 C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\publish\web.config
