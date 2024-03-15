@@ -1,0 +1,1 @@
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\publish\web.config
