@@ -25,8 +25,9 @@
 </div>
 
 <div class="flex-container">
-    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item">Celsius, Fahrenheit
-            ou Kelvin</span>
+    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item">Celsius: 1,
+            Fahrenheit: 2
+            ou Kelvin: 3</span>
     </h5>
 </div>
 
@@ -46,24 +47,77 @@
 </div>
 
 <div class="item">
-    <button class="btn btn-dark">Calcular</button>
+    <button class="btn btn-dark" @onclick="calculo">Calcular</button>
 </div>
 
 <div class="item">
-    Saída aqui
+    <output><b>@mensagem</b></output>
 </div>
 
 @code {
 
     public int temp = 0;
 
-    public string de = "";
+    public int de = 0;
 
-    public string para = "";
+    public int para = 0;
+
+    public int resultado = 0;
+
+    public int celsiusParaFah = 0;
+    public int celsiusParaKelvin = 0;
+
+    public int fahParaCels = 0;
+    public int fahParaKel = 0;
+
+    public int kelParaCel = 0;
+    public int kelParaFah = 0;
+
+    public string mensagem = "";
 
     public void calculo()
     {
+        if (de == 1)
+        {
+            if (para == 2)
+            {
+                celsiusParaFah = (temp * 9 / 5) + 32;
+                resultado = celsiusParaFah;
+            }
+            else if (para == 3)
+            {
+                double celsiusParaKelvin = temp + 273.15;
+                double resultado = celsiusParaKelvin;
+            }
+        }
 
+        if (de == 2)
+        {
+            if (para == 1)
+            {
+                fahParaCels = (temp - 32) * 5 / 9;
+                resultado = fahParaCels;
+            }
+            else if (para == 3)
+            {
+                double fahParaKel = (temp - 32) * 5 / 9 + 273.15;
+                double resultado = fahParaKel;
+            }
+        }
+
+        if (de == 3)
+        {
+            if (para == 1)
+            {
+                double kelParaCel = temp - 273.15;
+                double resultado = kelParaCel;
+            }
+            else if (para == 2)
+            {
+                double kelParaFah = (temp - 273.15) * 9 / 5 + 32;
+                double resultado = kelParaFah;
+            }
+        }
+        mensagem = $"A temperatura é {resultado}";
     }
-
 }
