@@ -25,25 +25,34 @@
 </div>
 
 <div class="flex-container">
-    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item">Celsius: 1,
-            Fahrenheit: 2
-            ou Kelvin: 3</span>
+    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item">Celsius,
+            Fahrenheit
+            ou Kelvin</span>
     </h5>
 </div>
 
-<div class="flex-container">
-
-
-    <div class="item">
+<div class="item">
+    <div>
         <p>De:</p>
-        <input type="text" @bind="de">
-    </div>
+        <select name="" id="" @bind="de" class="">
 
-    <div class="item">
+            <option value="1">Celsius</option>
+            <option value="2">Fahrenheit</option>
+            <option value="3">Kelvin</option>
+
+        </select>
+    </div>
+    <br>
+    <div>
         <p>Para:</p>
-        <input type="text" @bind="para">
-    </div>
+        <select name="" id="" @bind="para">
 
+            <option value="1">Celsius</option>
+            <option value="2">Fahrenheit</option>
+            <option value="3">Kelvin</option>
+
+        </select>
+    </div>
 </div>
 
 <div class="item">
@@ -77,6 +86,7 @@
 
     public void calculo()
     {
+
         if (de == 1)
         {
             if (para == 2)
@@ -86,8 +96,11 @@
             }
             else if (para == 3)
             {
-                double celsiusParaKelvin = temp + 273.15;
-                double resultado = celsiusParaKelvin;
+                //double celsiusParaKelvin = temp + 273.15;
+                //double resultado = celsiusParaKelvin;
+
+                celsiusParaKelvin = temp + 273;
+                resultado = celsiusParaKelvin;
             }
         }
 
@@ -100,8 +113,11 @@
             }
             else if (para == 3)
             {
-                double fahParaKel = (temp - 32) * 5 / 9 + 273.15;
-                double resultado = fahParaKel;
+                //double fahParaKel = (temp - 32) * 5 / 9 + 273.15;
+                //double resultado = fahParaKel;
+
+                fahParaKel = (temp - 32) * 5 / 9 + 273;
+                resultado = fahParaKel;
             }
         }
 
@@ -109,15 +125,22 @@
         {
             if (para == 1)
             {
-                double kelParaCel = temp - 273.15;
-                double resultado = kelParaCel;
+                //double kelParaCel = temp - 273.15;
+                //double resultado = kelParaCel;
+
+                kelParaCel = temp - 273;
+                resultado = kelParaCel;
             }
             else if (para == 2)
             {
-                double kelParaFah = (temp - 273.15) * 9 / 5 + 32;
-                double resultado = kelParaFah;
+                //double kelParaFah = (temp - 273.15) * 9 / 5 + 32;
+                //double resultado = kelParaFah;
+
+                kelParaFah = (temp - 273) * 9 / 5 + 32;
+                resultado = kelParaFah;
             }
         }
+
         mensagem = $"A temperatura é {resultado}";
     }
 }
