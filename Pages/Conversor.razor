@@ -65,22 +65,22 @@
 
 @code {
 
-    public int temp = 0;
+    public Double temp = 0;
 
     public int de = 0;
 
     public int para = 0;
 
-    public int resultado = 0;
+    public Double resultado = 0;
 
-    public int celsiusParaFah = 0;
-    public int celsiusParaKelvin = 0;
+    public Double celsiusParaFah = 0;
+    public Double celsiusParaKelvin = 0;
 
-    public int fahParaCels = 0;
-    public int fahParaKel = 0;
+    public Double fahParaCels = 0;
+    public Double fahParaKel = 0;
 
-    public int kelParaCel = 0;
-    public int kelParaFah = 0;
+    public Double kelParaCel = 0;
+    public Double kelParaFah = 0;
 
     public string mensagem = "";
 
@@ -96,10 +96,7 @@
             }
             else if (para == 3)
             {
-                //double celsiusParaKelvin = temp + 273.15;
-                //double resultado = celsiusParaKelvin;
-
-                celsiusParaKelvin = temp + 273;
+                celsiusParaKelvin = temp + 273.15;
                 resultado = celsiusParaKelvin;
             }
         }
@@ -113,10 +110,7 @@
             }
             else if (para == 3)
             {
-                //double fahParaKel = (temp - 32) * 5 / 9 + 273.15;
-                //double resultado = fahParaKel;
-
-                fahParaKel = (temp - 32) * 5 / 9 + 273;
+                fahParaKel = (temp - 32) * 5 / 9 + 273.15;
                 resultado = fahParaKel;
             }
         }
@@ -125,18 +119,13 @@
         {
             if (para == 1)
             {
-                //double kelParaCel = temp - 273.15;
-                //double resultado = kelParaCel;
 
-                kelParaCel = temp - 273;
+                kelParaCel = temp - 273.15;
                 resultado = kelParaCel;
             }
             else if (para == 2)
             {
-                //double kelParaFah = (temp - 273.15) * 9 / 5 + 32;
-                //double resultado = kelParaFah;
-
-                kelParaFah = (temp - 273) * 9 / 5 + 32;
+                kelParaFah = (temp - 273.15) * 9 / 5 + 32;
                 resultado = kelParaFah;
             }
         }
