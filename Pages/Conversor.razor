@@ -10,31 +10,35 @@
     }
 </style>
 
-<h2 style="color: rgb(38, 38, 148);"><i>Esse é um Algoritimo que faz a coversão de diferentes unidades de medições de
-        temperaturas:</i></h2>
+<h1 style="color: rgb(38, 38, 148);">Conversor Térmico</h1>
+<hr>
+<h4>Esse é um Algoritimo que faz a coversão de diferentes unidades de medições de
+    temperaturas:</h4>
+<br>
+
 
 
 <div class="flex-container">
 
-    <h5 class="item">Temperatura: </h5>
+    <h5 class="item"><i>Temperatura:</i></h5>
 
     <div class="item">
-        <input type="text" @bind="temp">
+        <input type="text" @bind="temp" class="form-control">
     </div>
 
 </div>
 
 <div class="flex-container">
-    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item">Celsius,
-            Fahrenheit
-            ou Kelvin</span>
+    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item"><i>Celsius,
+                Fahrenheit
+                ou Kelvin</i></span>
     </h5>
 </div>
 
 <div class="item">
     <div>
-        <p>De:</p>
-        <select name="" id="" @bind="de" class="">
+        <p><i>De:</i></p>
+        <select name="" id="" @bind="de" class="form-select">
 
             <option value="1">Celsius</option>
             <option value="2">Fahrenheit</option>
@@ -44,8 +48,8 @@
     </div>
     <br>
     <div>
-        <p>Para:</p>
-        <select name="" id="" @bind="para">
+        <p><i>Para:</i></p>
+        <select name="" id="" @bind="para" class="form-select">
 
             <option value="1">Celsius</option>
             <option value="2">Fahrenheit</option>

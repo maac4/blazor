@@ -1,14 +1,14 @@
 @page "/idade"
 
-<h1 style="color: rgb(38, 38, 148);"><i>Algoritimo que calcula a idade pela data de nascimento:</i></h1>
+<h1 style="color: rgb(38, 38, 148);">Idade</h1>
+<hr>
+<h4>Algoritimo que calcula a idade pela data de nascimento:</h4>
 <br>
 <p>Data de nascimento: <input type="date" @bind="data_nascimento"></p>
-@*<p>Mês de nascimento: <input type="date" @bind="mes_nas"></p>
-<p>Dia de nascimento: <input type="date" @bind="dia_nas"></p>@**@
 <br>
 <p><button class="btn btn-dark" @onclick="idade_">Cacular idade</button></p>
 
-<p><b>@idade</b></p>
+<p><b>@mensagem</b></p>
 
 @code {
 
@@ -16,6 +16,8 @@
 
     DateTime data_nascimento = DateTime.Now;
     int idade = 0;
+
+    string mensagem = "";
 
     // Variaveis para a conta
 
@@ -30,5 +32,6 @@
             idade--;
         }
 
+        mensagem = $"Sua idade é {idade}.";
     }
 }

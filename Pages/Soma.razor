@@ -1,9 +1,9 @@
 ﻿@page "/soma"
 
-<h1 style="color: rgb(38, 38, 148);"><i>Algoritimo de soma de dois números:</i></h1>
-<br>
-<p><input type="text" placeholder="Número um:" @bind="num1"></p>
-<p><input type="text" placeholder="Número dois:" @bind="num2"></p>
+<h1 style="color: rgb(38, 38, 148);">Soma:</h1>
+<hr>
+<p><input type="text" placeholder="Número um:" @bind="num1" class="rounded"></p>
+<p><input type="text" placeholder="Número dois:" @bind="num2" class="rounded"></p>
 <br>
 <p><button @onclick="some" class="btn btn-dark">calcule</button></p>
 <p><b>@soma</b></p>
