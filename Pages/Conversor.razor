@@ -105,6 +105,10 @@
                 resultado = celsiusParaKelvin;
                 mensagem = $"{resultado} Kelvin(s).";
             }
+            else if (para == 1)
+            {
+                mensagem = "Não é possivel transformar Celsius para Celsius.";
+            }
         }
 
         if (de == 2)
@@ -120,6 +124,10 @@
                 fahParaKel = (temp - 32) * 5 / 9 + 273.15;
                 resultado = fahParaKel;
                 mensagem = $"{resultado} Kelvin(s).";
+            }
+            else if (para == 2)
+            {
+                mensagem = "Não é possivel transformar Fahrenheit para Fahrenheit.";
             }
         }
 
@@ -137,6 +145,10 @@
                 kelParaFah = (temp - 273.15) * 9 / 5 + 32;
                 resultado = kelParaFah;
                 mensagem = $"{resultado} grau(s) Fahrenheit.";
+            }
+            else if (para == 3)
+            {
+                mensagem = "Não é possivel transformar Kelvin para Kelvin.";
             }
         }
     }
