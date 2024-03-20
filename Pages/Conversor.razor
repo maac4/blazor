@@ -93,63 +93,87 @@
 
         if (de == 1)
         {
-            if (para == 2)
+            if (temp >= -273.15)
             {
-                celsiusParaFah = (temp * 9 / 5) + 32;
-                resultado = celsiusParaFah;
-                mensagem = $"{resultado} grau(s) Fahrenheit.";
+                if (para == 2)
+                {
+                    celsiusParaFah = (temp * 9 / 5) + 32;
+                    resultado = celsiusParaFah;
+                    mensagem = $"{resultado} grau(s) Fahrenheit.";
+                }
+                else if (para == 3)
+                {
+                    celsiusParaKelvin = temp + 273.15;
+                    resultado = celsiusParaKelvin;
+                    mensagem = $"{resultado} Kelvin(s).";
+                }
+                else if (para == 1)
+                {
+                    mensagem = "Não é possivel transformar Celsius para Celsius.";
+                }
             }
-            else if (para == 3)
+            else
             {
-                celsiusParaKelvin = temp + 273.15;
-                resultado = celsiusParaKelvin;
-                mensagem = $"{resultado} Kelvin(s).";
+                mensagem = "Temperatura inválida, abaixo do 0 absoluto.";
             }
-            else if (para == 1)
-            {
-                mensagem = "Não é possivel transformar Celsius para Celsius.";
-            }
+
         }
 
         if (de == 2)
         {
-            if (para == 1)
+            if (temp >= -459.66999999999996)
             {
-                fahParaCels = (temp - 32) * 5 / 9;
-                resultado = fahParaCels;
-                mensagem = $"{resultado} graus(s) Celsius.";
+                if (para == 1)
+                {
+                    fahParaCels = (temp - 32) * 5 / 9;
+                    resultado = fahParaCels;
+                    mensagem = $"{resultado} graus(s) Celsius.";
+                }
+                else if (para == 3)
+                {
+                    fahParaKel = (temp - 32) * 5 / 9 + 273.15;
+                    resultado = fahParaKel;
+                    mensagem = $"{resultado} Kelvin(s).";
+                }
+                else if (para == 2)
+                {
+                    mensagem = "Não é possivel transformar Fahrenheit para Fahrenheit.";
+                }
             }
-            else if (para == 3)
+            else
             {
-                fahParaKel = (temp - 32) * 5 / 9 + 273.15;
-                resultado = fahParaKel;
-                mensagem = $"{resultado} Kelvin(s).";
+                mensagem = "Temperatura inválida, abaixo do 0 absoluto.";
             }
-            else if (para == 2)
-            {
-                mensagem = "Não é possivel transformar Fahrenheit para Fahrenheit.";
-            }
+
         }
 
         if (de == 3)
         {
-            if (para == 1)
+            if (temp >= 0)
             {
+                if (para == 1)
+                {
 
-                kelParaCel = temp - 273.15;
-                resultado = kelParaCel;
-                mensagem = $"{resultado} grau(s) Celsius.";
+                    kelParaCel = temp - 273.15;
+                    resultado = kelParaCel;
+                    mensagem = $"{resultado} grau(s) Celsius.";
+                }
+                else if (para == 2)
+                {
+                    kelParaFah = (temp - 273.15) * 9 / 5 + 32;
+                    resultado = kelParaFah;
+                    mensagem = $"{resultado} grau(s) Fahrenheit.";
+                }
+                else if (para == 3)
+                {
+                    mensagem = "Não é possivel transformar Kelvin para Kelvin.";
+                }
             }
-            else if (para == 2)
+            else
             {
-                kelParaFah = (temp - 273.15) * 9 / 5 + 32;
-                resultado = kelParaFah;
-                mensagem = $"{resultado} grau(s) Fahrenheit.";
+                mensagem = "Temperatura inválida, abaixo do 0 absoluto.";
             }
-            else if (para == 3)
-            {
-                mensagem = "Não é possivel transformar Kelvin para Kelvin.";
-            }
+
         }
     }
 }
