@@ -1,2 +1,2 @@
 # blazor
-Projeto para implementação de algoritmos utilizando blazor e c#
+Projeto para implementação de algoritmos utilizando Blazor e C#.
