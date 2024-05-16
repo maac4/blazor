@@ -2063,3 +2063,8 @@ C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\compressed\14i4x9
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\compressed\eahbvnqebn.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\compressed\47u449wl3k.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\compressed\o4yf63js76.gz
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Debug\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Debug\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm.gz
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\webcil\Newtonsoft.Json.wasm
+C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Debug\net8.0\compressed\m56t04lndy.gz

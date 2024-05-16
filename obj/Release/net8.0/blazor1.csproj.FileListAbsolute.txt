@@ -1032,3 +1032,8 @@ C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\gngx
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\59ip1fnhyx.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\docs\sample-data\weather.json
 C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\docs\_framework\blazor.boot.json
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\wwwroot\_framework\Newtonsoft.Json.wasm.gz
+C:\Users\marco\OneDrive\Documentos\git\blazor\bin\Release\net8.0\Newtonsoft.Json.dll
+C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\webcil\Newtonsoft.Json.wasm
+C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\lsk8ylvo3t.gz

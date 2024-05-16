@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HhOL693F2VaUjDp4O1OEyYCF9NstNPstSkGVSneFxr8=",
+  "Hash": "GPOTJ4JwkNsB229FSRXDqxDKKKJv8C3ivjisZF+TrYA=",
   "Source": "blazor1",
   "BasePath": "/",
   "Mode": "Root",
@@ -813,6 +813,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Debug\\net8.0\\webcil\\netstandard.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Debug\\net8.0\\webcil\\Newtonsoft.Json.wasm"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm",
@@ -6266,6 +6285,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Debug\\net8.0\\compressed\\m56t04lndy.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Debug\\net8.0\\compressed\\m76i5cyqd7.gz",
