@@ -1,0 +1,64 @@
+@page "/feriados"
+
+@using Newtonsoft.Json;
+@using static blazor1.Pages.Feriados
+
+<h1 style="color: rgb(38, 38, 148);">Feriados</h1>
+<hr>
+<h4>Esse algoritmo é responsável por informar quais datas são feriados nacionais no Brasil no ano de 2024.</h4>
+<br>
+<ul>
+    @foreach (var feriado in feriados)
+    {
+        <li>
+            <p>
+                @feriado.Name
+                <br>
+                @feriado.Date
+            </p>
+        </li>
+    }
+</ul>
+@code
+{
+    public List<Feriado> feriados = new List<Feriado>();
+
+    public class Feriado
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Date { get; set; } = string.Empty;
+        public string Type { get; set; } = string.Empty;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        string apiUrl = $"https://brasilapi.com.br/api/feriados/v1/2024";
+
+        using (HttpClient client = new HttpClient())
+        {
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseContent = await response.Content.ReadAsStringAsync();
+
+                    if (!string.IsNullOrEmpty(responseContent))
+                    {
+                        feriados = JsonConvert.DeserializeObject<List<Feriado>>(responseContent)!;
+                    }
+                    else
+                    {
+                        string errorMessage = "Erro ao chamar a API. Status do código: " + response.StatusCode;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                string errorMessage = "Ocorreu um erro: " + ex.Message;
+            }
+        }
+    }
+}
