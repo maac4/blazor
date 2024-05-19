@@ -1,14 +1,83 @@
 @page "/idade"
 
-<h1 style="color: rgb(38, 38, 148);">Idade</h1>
-<hr>
-<h4>Algoritimo que calcula a idade pela data de nascimento:</h4>
-<br>
-<p>Data de nascimento: <input type="date" @bind="data_nascimento"></p>
-<br>
-<p><button class="btn btn-dark" @onclick="idade_">Cacular idade</button></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-<p><b>@mensagem</b></p>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: rgb(38, 38, 148);
+            text-align: center;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        h4 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        input[type="date"],
+        .btn {
+            padding: 10px;
+            font-size: 16px;
+            width: 50%;
+            margin: 10px 0;
+        }
+
+        .btn {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        .result {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Idade</h1>
+    <hr>
+    <h4>Algoritmo que calcula a idade pela data de nascimento:</h4>
+    <br>
+    <p>Data de nascimento: <input type="date" @bind="data_nascimento"></p>
+    <br>
+    <p><button class="btn" @onclick="idade_">Calcular idade</button></p>
+    <div class="result">
+        <p><b>@mensagem</b></p>
+    </div>
+</div>
 
 @code {
 

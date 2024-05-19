@@ -1,61 +1,127 @@
 @page "/sorte"
 
-<style>
-    .flex {
-        display: flex;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Sorte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-    .p {
-        padding: 20px;
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    .w {
-        width: 33%;
-    }
+        h1 {
+            color: rgb(38, 38, 148);
+            text-align: center;
+        }
 
-    .center {
-        justify-content: space-around;
-    }
+        hr {
+            margin: 20px 0;
+        }
 
-    .text {
-        text-align: center;
-    }
-</style>
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-<h1 style="color: rgb(38, 38, 148);">Jogos de sorte</h1>
-<hr>
-<h3>Esses algoritimos são jogos de problabilidade.</h3>
-<br>
-<div class="p">
-    <h4>Tem 3 jogos:</h4>
-    <p>Dado de 6 lados, na qual é gerado um número aleatório de 1 a 6;</p>
-    <p>Dado de 10 lados, na qual é gerado um número aleatório de 1 a 10;</p>
-    <p>Jogo de Cara ou Coroa, onde a 50% de chance de cair Cara ou Coroa.</p>
-</div>
-<br>
+        .flex {
+            display: flex;
+        }
 
-<div class="flex p center">
+        .p {
+            padding: 20px;
+        }
 
-    <div class="text">
-        <select @bind="opcao" class="form-control">
-            <option value="1">Dado de 6 lados</option>
-            <option value="2">Dado de 10 lados</option>
-            <option value="3">Cara ou Coroa</option>
-        </select>
-        <br>
-        <p><button class="btn btn-dark" @onclick="jogo">Jogar</button></p>
+        .center {
+            justify-content: space-around;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .game-list p {
+            margin: 10px 0;
+        }
+
+        .game-container {
+            background-color: rgb(195, 195, 195);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .game-container select,
+        .game-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .result-container {
+            background-color: rgb(195, 195, 195);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .result-container h4 {
+            margin-bottom: 10px;
+        }
+
+        .result-container p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+<div class="container">
+    <h1>Jogos de Sorte</h1>
+    <hr>
+    <h3 class="description">Esses algoritmos são jogos de probabilidade.</h3>
+
+    <div class="flex center p">
+        <h4>3 jogos:</h4>
     </div>
 
-    <div class="text">
-        <h4>Resultado:</h4>
-        <br>
-        <p class="border rounded">@saida</p>
+    <div class="game-list">
+        <p class="flex center">Dado de 6 lados, na qual é gerado um número aleatório de 1 a 6;</p>
+        <p class="flex center">Dado de 10 lados, na qual é gerado um número aleatório de 1 a 10;</p>
+        <p class="flex center">Jogo de Cara ou Coroa, onde há 50% de chance de cair Cara ou Coroa.</p>
     </div>
 
+    <div class="flex center p">
+        <div class="game-container text-center">
+            <select @bind="opcao" class="form-control">
+                <option value="1">Dado de 6 lados</option>
+                <option value="2">Dado de 10 lados</option>
+                <option value="3">Cara ou Coroa</option>
+            </select>
+            <button class="btn btn-dark" @onclick="jogo">Jogar</button>
+        </div>
+
+        <div class="result-container text-center">
+            <h4>Resultado:</h4>
+            <p>@saida</p>
+        </div>
+    </div>
 </div>
 
 @code {
-
     public string saida = "";
 
     public int saida2;

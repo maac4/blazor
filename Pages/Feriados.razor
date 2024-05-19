@@ -3,22 +3,83 @@
 @using Newtonsoft.Json;
 @using static blazor1.Pages.Feriados
 
-<h1 style="color: rgb(38, 38, 148);">Feriados</h1>
-<hr>
-<h4>Esse algoritmo é responsável por informar quais datas são feriados nacionais no Brasil no ano de 2024.</h4>
-<br>
-<ul>
-    @foreach (var feriado in feriados)
-    {
-        <li>
-            <p>
-                @feriado.Name
-                <br>
-                @feriado.Date
-            </p>
-        </li>
-    }
-</ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feriados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: rgb(38, 38, 148);
+            text-align: center;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        h4 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 15px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        li p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .date {
+            color: #555;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Feriados</h1>
+    <hr>
+    <h4>Esse algoritmo utiliza uma API pública para informar quais datas são feriados nacionais no Brasil no ano de
+        2024.</h4>
+    <ul>
+        @foreach (var feriado in feriados)
+        {
+            <li>
+                <p>
+                    <strong>@feriado.Name</strong>
+                    <br>
+                    <span class="date">@feriado.Date</span>
+                </p>
+            </li>
+        }
+    </ul>
+</div>
+
 @code
 {
     public List<Feriado> feriados = new List<Feriado>();

@@ -1,70 +1,115 @@
 @page "/conversor"
 
-<style>
-    .flex-container {
-        display: flex;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Térmico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-    .item {
-        padding: 20px;
-    }
-</style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-<h1 style="color: rgb(38, 38, 148);">Conversor Térmico</h1>
-<hr>
-<h4>Esse é um Algoritimo que faz a coversão de diferentes unidades de medições de
-    temperaturas:</h4>
-<br>
+        h1 {
+            color: rgb(38, 38, 148);
+            text-align: center;
+        }
 
+        hr {
+            margin: 20px 0;
+        }
 
+        h4 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-<div class="flex-container">
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
 
-    <h5 class="item"><i>Temperatura:</i></h5>
+        .item {
+            padding: 10px;
+            flex: 1 1 100%;
+            max-width: 100%;
+        }
 
-    <div class="item">
-        <input type="text" @bind="temp" class="form-control">
+        .form-control,
+        .form-select,
+        .btn {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .result {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Conversor Térmico</h1>
+    <hr>
+    <h4>Esse é um algoritmo que faz a conversão de diferentes unidades de medições de temperaturas:</h4>
+
+    <div class="flex-container">
+        <h5 class="item"><i>Temperatura:</i></h5>
+        <div class="item">
+            <input type="text" @bind="temp" class="form-control" placeholder="Digite a temperatura">
+        </div>
     </div>
 
-</div>
-
-<div class="flex-container">
-    <h5 class="item">Unidades de conversção: <span style="color: rgb(120, 120, 125);" class="item"><i>Celsius,
-                Fahrenheit
-                ou Kelvin</i></span>
-    </h5>
-</div>
-
-<div class="item">
-    <div>
-        <p><i>De:</i></p>
-        <select name="" id="" @bind="de" class="form-select">
-
-            <option value="1">Celsius</option>
-            <option value="2">Fahrenheit</option>
-            <option value="3">Kelvin</option>
-
-        </select>
+    <div class="flex-container">
+        <h5 class="item">Unidades de conversão: <span style="color: rgb(120, 120, 125);"><i>Celsius, Fahrenheit ou
+                    Kelvin</i></span></h5>
     </div>
-    <br>
-    <div>
-        <p><i>Para:</i></p>
-        <select name="" id="" @bind="para" class="form-select">
 
-            <option value="1">Celsius</option>
-            <option value="2">Fahrenheit</option>
-            <option value="3">Kelvin</option>
+    <div class="flex-container">
+        <div class="item">
+            <p><i>De:</i></p>
+            <select @bind="de" class="form-select">
+                <option value="1">Celsius</option>
+                <option value="2">Fahrenheit</option>
+                <option value="3">Kelvin</option>
+            </select>
+        </div>
 
-        </select>
+        <div class="item">
+            <p><i>Para:</i></p>
+            <select @bind="para" class="form-select">
+                <option value="1">Celsius</option>
+                <option value="2">Fahrenheit</option>
+                <option value="3">Kelvin</option>
+            </select>
+        </div>
     </div>
-</div>
 
-<div class="item">
-    <button class="btn btn-dark" @onclick="calculo">Calcular</button>
-</div>
+    <div class="flex-container">
+        <div class="item">
+            <button class="btn btn-dark" @onclick="calculo">Calcular</button>
+        </div>
+    </div>
 
-<div class="item">
-    <output><b>@mensagem</b></output>
+    <div class="result">
+        <output><b>@mensagem</b></output>
+    </div>
 </div>
 
 @code {

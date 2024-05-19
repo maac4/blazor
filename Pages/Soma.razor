@@ -1,13 +1,87 @@
 ﻿@page "/soma"
 
-<h1 style="color: rgb(38, 38, 148);">Soma:</h1>
-<hr>
-<p><input type="text" placeholder="Número um:" @bind="num1" class="rounded"></p>
-<p><input type="text" placeholder="Número dois:" @bind="num2" class="rounded"></p>
-<br>
-<p><button @onclick="some" class="btn btn-dark">calcule</button></p>
-<p><b>@soma</b></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: rgb(38, 38, 148);
+            text-align: center;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: calc(100% - 22px);
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        .result {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Soma</h1>
+    <hr>
+    <p><input type="text" placeholder="Número um:" @bind="num1"></p>
+    <p><input type="text" placeholder="Número dois:" @bind="num2"></p>
+    <br>
+    <p><button @onclick="some" class="btn">Calcular</button></p>
+    <div class="result">
+        <p><b>@soma</b></p>
+    </div>
+</div>
 @code {
     public string num1 = "";
     public string num2 = "";
