@@ -1,0 +1,230 @@
+@page "/nasaepic"
+
+<PageTitle>NasaEpic</PageTitle>
+
+@using System.Net.Http
+@using Newtonsoft.Json
+@using System.Collections.Generic
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NasaEpic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #265698;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            text-align: center;
+        }
+
+        select,
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #383838;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nasa Epic</h1>
+        <hr>
+
+        <h3>Imagens de Earth Polychromatic Imaging Camera (EPIC)</h3>
+        <p>Imagens e dados fornecidos pelo satélite DSCOVR.</p>
+
+        <label for="angle">Selecione o Ângulo:</label>
+        <select id="angle" @bind="selectedAngle">
+            @for (int i = 0; i < epicDataList?.Count; i++)
+            {
+                <option value="@i">Ângulo @i</option>
+            }
+        </select>
+
+        <button @onclick="FetchEpicData">Buscar Dados</button>
+
+        @if (epicDataList != null && epicDataList.Count > 0)
+        {
+            <ul>
+                <li>
+                    <h2>@epicDataList[selectedAngle].Caption</h2>
+                    <img src="@GetImageUrl(epicDataList[selectedAngle].Date, epicDataList[selectedAngle].Image)"
+                        alt="EPIC Image" />
+                    <p>Data: @epicDataList[selectedAngle].Date</p>
+                </li>
+            </ul>
+        }
+        else
+        {
+            <p class="loading">Carregando dados...</p>
+        }
+    </div>
+</body>
+
+
+@code
+{
+    // EpicData.cs
+    public class EpicData
+    {
+        public string Identifier { get; set; } = string.Empty;
+        public string Caption { get; set; } = string.Empty;
+        public string Image { get; set; } = string.Empty;
+        public string Date { get; set; } = string.Empty;
+
+        public class CentroidCoordinates
+        {
+            public double Lat { get; set; }
+            public double Lon { get; set; }
+        }
+
+        public class DscovrJ2000Position
+        {
+            public double X { get; set; }
+            public double Y { get; set; }
+            public double Z { get; set; }
+        }
+
+        public class LunarJ2000Position
+        {
+            public double X { get; set; }
+            public double Y { get; set; }
+            public double Z { get; set; }
+        }
+
+        public class SunJ2000Position
+        {
+            public double X { get; set; }
+            public double Y { get; set; }
+            public double Z { get; set; }
+        }
+
+        public class AttitudeQuaternions
+        {
+            public double Q0 { get; set; }
+            public double Q1 { get; set; }
+            public double Q2 { get; set; }
+            public double Q3 { get; set; }
+        }
+
+        public CentroidCoordinates centroid_coordinates { get; set; }
+        public DscovrJ2000Position dscovr_j2000_position { get; set; }
+        public LunarJ2000Position lunar_j2000_position { get; set; }
+        public SunJ2000Position sun_j2000_position { get; set; }
+        public AttitudeQuaternions attitude_quaternions { get; set; }
+    }
+
+    private List<EpicData> epicDataList = new List<EpicData>();
+    private int selectedAngle = 0;
+
+    private async Task FetchEpicData()
+    {
+        string apiUrl = "https://epic.gsfc.nasa.gov/api/natural";
+        using (HttpClient httpClient = new HttpClient())
+        {
+            try
+            {
+                HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    epicDataList = JsonConvert.DeserializeObject<List<EpicData>>(responseBody);
+                    selectedAngle = 0;
+                }
+                else
+                {
+                    string errorMessage = "Erro ao chamar a API. Status do código: " + response.StatusCode;
+                }
+            }
+            catch (Exception ex)
+            {
+                string errorMassage = "Ocorreu um erro: " + ex.Message;
+            }
+        }
+
+    }
+
+    private string GetImageUrl(string date, string image)
+    {
+        var dateParts = date.Split(' ')[0].Split('-');
+        return $"https://epic.gsfc.nasa.gov/archive/natural/{dateParts[0]}/{dateParts[1]}/{dateParts[2]}/jpg/{image}.jpg";
+    }
+
+}
