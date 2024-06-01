@@ -1012,7 +1012,6 @@ C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\1v8s
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\ehdbzvz30m.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\mmsk6ed0z3.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\gdi1euq7lf.gz
-C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\blazor1.csproj.CopyComplete
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\blazor1.dll
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\refint\blazor1.dll
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\blazor1.pdb
@@ -1037,3 +1036,4 @@ C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\wj55
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\q2rv227kvb.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\641whrt3d5.gz
 C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\compressed\nzvv05lacr.gz
+C:\Users\marco\OneDrive\Documentos\git\blazor\obj\Release\net8.0\blazor1.csproj.Up2Date

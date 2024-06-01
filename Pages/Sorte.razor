@@ -22,7 +22,7 @@
         }
 
         h1 {
-            color: rgb(38, 38, 148);
+            color: rgb(62, 62, 62);
             text-align: center;
         }
 
@@ -87,6 +87,20 @@
             font-size: 18px;
             font-weight: bold;
         }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            background-color: rgb(134, 21, 21);
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: #310101;
+            color: gray;
+        }
     </style>
 </head>
 
@@ -113,7 +127,7 @@
                 <option value="2">Dado de 10 lados</option>
                 <option value="3">Cara ou Coroa</option>
             </select>
-            <button class="btn btn-dark" @onclick="jogo">Jogar</button>
+            <button class="btn btn:hover" @onclick="jogo">Jogar</button>
         </div>
 
         <div class="result-container text-center">

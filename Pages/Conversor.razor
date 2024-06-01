@@ -22,7 +22,7 @@
         }
 
         h1 {
-            color: rgb(38, 38, 148);
+            color: rgb(62, 62, 62);
             text-align: center;
         }
 
@@ -48,13 +48,33 @@
             max-width: 100%;
         }
 
-        .form-control,
-        .form-select,
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
         .btn {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
             font-size: 16px;
+            background-color: rgb(134, 21, 21);
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: #310101;
+            color: gray;
         }
 
         .result {
@@ -105,7 +125,7 @@
 
     <div class="flex-container">
         <div class="item">
-            <button class="btn btn-dark" @onclick="calculo">Calcular</button>
+            <button class="btn" @onclick="calculo">Calcular</button>
         </div>
     </div>
 

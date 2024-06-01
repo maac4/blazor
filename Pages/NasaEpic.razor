@@ -28,7 +28,7 @@
         }
 
         h1 {
-            color: #265698;
+            color: rgb(62, 62, 62);
             text-align: center;
             margin-bottom: 20px;
         }
@@ -67,14 +67,15 @@
         }
 
         button {
-            background-color: #383838;
+            background-color: rgb(134, 21, 21);
             color: #fff;
             cursor: pointer;
             transition: background-color 0.3s;
         }
 
         button:hover {
-            background-color: #333;
+            background-color: #310101;
+            color: gray;
         }
 
         ul {
@@ -184,14 +185,14 @@
             public double Q3 { get; set; }
         }
 
-        public CentroidCoordinates centroid_coordinates { get; set; }
-        public DscovrJ2000Position dscovr_j2000_position { get; set; }
-        public LunarJ2000Position lunar_j2000_position { get; set; }
-        public SunJ2000Position sun_j2000_position { get; set; }
-        public AttitudeQuaternions attitude_quaternions { get; set; }
+        public CentroidCoordinates centroid_coordinates { get; set; } = null!;
+        public DscovrJ2000Position dscovr_j2000_position { get; set; } = null!;
+        public LunarJ2000Position lunar_j2000_position { get; set; } = null!;
+        public SunJ2000Position sun_j2000_position { get; set; } = null!;
+        public AttitudeQuaternions attitude_quaternions { get; set; } = null!;
     }
 
-    private List<EpicData> epicDataList = new List<EpicData>();
+    private List<EpicData>? epicDataList = new List<EpicData>();
     private int selectedAngle = 0;
 
     private async Task FetchEpicData()
