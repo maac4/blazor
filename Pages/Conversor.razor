@@ -166,13 +166,13 @@
                 {
                     celsiusParaFah = (temp * 9 / 5) + 32;
                     resultado = celsiusParaFah;
-                    mensagem = $"{resultado:N} grau(s) Fahrenheit.";
+                    mensagem = $"{resultado:N2} grau(s) Fahrenheit.";
                 }
                 else if (para == 3)
                 {
                     celsiusParaKelvin = temp + 273.15;
                     resultado = celsiusParaKelvin;
-                    mensagem = $"{resultado:N} Kelvin(s).";
+                    mensagem = $"{resultado:N2} Kelvin(s).";
                 }
                 else if (para == 1)
                 {
@@ -194,13 +194,13 @@
                 {
                     fahParaCels = (temp - 32) * 5 / 9;
                     resultado = fahParaCels;
-                    mensagem = $"{resultado:N} graus(s) Celsius.";
+                    mensagem = $"{resultado:N2} graus(s) Celsius.";
                 }
                 else if (para == 3)
                 {
                     fahParaKel = (temp - 32) * 5 / 9 + 273.15;
                     resultado = fahParaKel;
-                    mensagem = $"{resultado:N} Kelvin(s).";
+                    mensagem = $"{resultado:N2} Kelvin(s).";
                 }
                 else if (para == 2)
                 {
@@ -223,13 +223,13 @@
 
                     kelParaCel = temp - 273.15;
                     resultado = kelParaCel;
-                    mensagem = $"{resultado:N} grau(s) Celsius.";
+                    mensagem = $"{resultado:N2} grau(s) Celsius.";
                 }
                 else if (para == 2)
                 {
                     kelParaFah = (temp - 273.15) * 9 / 5 + 32;
                     resultado = kelParaFah;
-                    mensagem = $"{resultado:N} grau(s) Fahrenheit.";
+                    mensagem = $"{resultado:N2} grau(s) Fahrenheit.";
                 }
                 else if (para == 3)
                 {
