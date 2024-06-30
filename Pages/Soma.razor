@@ -70,26 +70,80 @@
             font-weight: bold;
             margin-top: 20px;
         }
+
+        .select {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: rgb(134, 21, 21);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+        }
     </style>
 </head>
 
 <div class="container">
-    <h1>Soma</h1>
+    <h1>Opererações Matemáticas</h1>
     <hr>
+    <p>Selecione a operação:</p>
+    <select name="Operation" @bind="operation" class="select rounded">
+        <option value="1">Soma</option>
+        <option value="2">Subtração</option>
+        <option value="3">Multiplicação</option>
+        <option value="4">Divisão</option>
+    </select>
     <p><input type="text" placeholder="Número um:" @bind="num1"></p>
     <p><input type="text" placeholder="Número dois:" @bind="num2"></p>
     <br>
-    <p><button @onclick="some" class="btn">Calcular</button></p>
+    @if (operation == "1")
+    {
+        <p><button @onclick="Sum" class="btn">Calcular</button></p>
+    }
+    else if (operation == "2")
+    {
+        <p><button @onclick="Substraction" class="btn">Calcular</button></p>
+    }
+    else if (operation == "3")
+    {
+        <p><button @onclick="Multiplication" class="btn">Calcular</button></p>
+    }
+    else if (operation == "4")
+    {
+        <p><button @onclick="Division" class="btn">Calcular</button></p>
+    }
+
     <div class="result">
-        <p><b>@soma</b></p>
+        <p><b>@result</b></p>
     </div>
 </div>
+
 @code {
     public string num1 = "";
     public string num2 = "";
-    public int soma = 0;
-    public void some()
+    public decimal result = 0;
+
+    public string operation = string.Empty;
+
+    public void Sum()
     {
-        soma = int.Parse(num1) + int.Parse(num2);
+        result = int.Parse(num1) + int.Parse(num2);
+    }
+
+    public void Substraction()
+    {
+        result = decimal.Parse(num1) - decimal.Parse(num2);
+    }
+
+    public void Multiplication()
+    {
+        result = decimal.Parse(num1) * decimal.Parse(num2);
+    }
+
+    public void Division()
+    {
+        result = decimal.Parse(num1) / decimal.Parse(num2);
     }
 }
