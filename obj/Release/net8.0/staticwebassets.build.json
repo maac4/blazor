@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RxQZNL5LTnRU7q2UBtyxorEfMJNd+RSLiWcKNekLhFo=",
+  "Hash": "PRyDYUOs9qI6n0aK7PQTJLh7xF34J+SsomGsaxf1bbo=",
   "Source": "blazor1",
   "BasePath": "/",
   "Mode": "Root",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.ew1vqrwwsw.js",
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.n54y91jgtu.js",
       "SourceId": "blazor1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.ew1vqrwwsw.js",
+      "RelativePath": "_framework/dotnet.native.8.0.8.n54y91jgtu.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.gongq8hbow.js",
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.ms3rhumpgv.js",
       "SourceId": "blazor1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.gongq8hbow.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.8.ms3rhumpgv.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4197,6 +4197,25 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.wasm"
     },
     {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\31rxwiuqb6.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\33s9zt6tfw.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -4501,25 +4520,6 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.wasm"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\641whrt3d5.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
-    },
-    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\6cbnnsudwe.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -4613,25 +4613,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\7hm6s93b13.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\7i9buqejm0.gz",
@@ -4860,6 +4841,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Security.Claims.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\8oy5ti18ec.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\8u0j68quy9.gz",
@@ -5508,23 +5508,23 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.wasm"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\ew1vqrwwsw.gz",
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\fb040bj1ej.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.ew1vqrwwsw.js.gz",
+      "RelativePath": "_framework/dotnet.js.map.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.ew1vqrwwsw.js",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.ew1vqrwwsw.js"
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\fg35i3e790.gz",
@@ -5736,25 +5736,6 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\gongq8hbow.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.gongq8hbow.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.gongq8hbow.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.gongq8hbow.js"
-    },
-    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\gonl4z59xj.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -5926,25 +5907,6 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.wasm"
     },
     {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\ibgvc3mbbn.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\ibrkozp61x.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -6095,6 +6057,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Net.Primitives.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\jvdvbwtx6y.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\jvqhk87iqf.gz",
@@ -6477,6 +6458,25 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.wasm"
     },
     {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\ms3rhumpgv.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.8.ms3rhumpgv.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.ms3rhumpgv.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.8.ms3rhumpgv.js"
+    },
+    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\n2e7sddo56.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -6494,6 +6494,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\n54y91jgtu.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.8.n54y91jgtu.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.n54y91jgtu.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.n54y91jgtu.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\n60k6uzic4.gz",
@@ -6629,6 +6648,25 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Numerics.wasm"
     },
     {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\nnvam6ci37.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\nxmjkg1f5b.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -6646,25 +6684,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\nzvv05lacr.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\o34pjcykim.gz",
@@ -6817,25 +6836,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Threading.ThreadPool.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\q2rv227kvb.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\q7viqsrfeg.gz",
@@ -7104,6 +7104,25 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Security.Principal.wasm"
     },
     {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\s305qtnbj8.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\s453fwnnul.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -7275,6 +7294,25 @@
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.wasm"
     },
     {
+      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\tlsuvkkdds.gz",
+      "SourceId": "blazor1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\u0tpg1itcq.gz",
       "SourceId": "blazor1",
       "SourceType": "Computed",
@@ -7349,25 +7387,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\uwh8dnsva1.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\uy2j369qi0.gz",
@@ -7463,25 +7482,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Reflection.Extensions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\wj55uthord.gz",
-      "SourceId": "blazor1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\bin\\Release\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\git\\blazor\\obj\\Release\\net8.0\\compressed\\wjsfm20c39.gz",

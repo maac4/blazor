@@ -115,7 +115,7 @@
         <select id="angle" @bind="selectedAngle">
             @for (int i = 0; i < epicDataList?.Count; i++)
             {
-                    <option value="@i">Ângulo @i</option>
+                <option value="@i">Ângulo @i</option>
             }
         </select>
 
@@ -123,18 +123,18 @@
 
         @if (epicDataList != null && epicDataList.Count > 0)
         {
-                <ul>
-                    <li>
-                        <h2>@epicDataList[selectedAngle].Caption</h2>
-                        <img src="@GetImageUrl(epicDataList[selectedAngle].Date, epicDataList[selectedAngle].Image)"
-                            alt="EPIC Image" />
-                        <p>Data: @epicDataList[selectedAngle].Date</p>
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                    <h2>@epicDataList[selectedAngle].Caption</h2>
+                    <img src="@GetImageUrl(epicDataList[selectedAngle].Date, epicDataList[selectedAngle].Image)"
+                        alt="EPIC Image" />
+                    <p>Data: @epicDataList[selectedAngle].Date</p>
+                </li>
+            </ul>
         }
         else
         {
-                <p class="loading">Carregando dados...</p>
+            <p class="loading">Carregando dados...</p>
         }
     </div>
 </body>
@@ -142,7 +142,6 @@
 
 @code
 {
-    // EpicData.cs
     public class EpicData
     {
         public string Identifier { get; set; } = string.Empty;
